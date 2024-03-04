@@ -1,0 +1,130 @@
+.first-nav {
+    /* background-color: #EEEEEE; */
+    height: 30px;
+}
+
+.col-2 {
+    /* border: 1px solid black; */
+}
+
+.col-10 {
+    position: relative;
+    left: 100px;
+    /* border: 1px solid black; */
+}
+
+.fw-bold {
+    font-size: 13px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.donate {
+    background-color: #0D6DB7;
+    transition: transform 0.2s;
+}
+.sponsor {
+    background-color: #8DC63F;
+    transition: transform 0.2s;
+}
+.donate:hover {
+    transform: scale(1.1);
+}
+.sponsor:hover {
+    transform: scale(1.1);
+}
+.first-section {
+    background-image: url("images/caruosal.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10px;
+}
+.navbar {
+    border-bottom: 2px solid #E7E7E7;
+}
+.section-1 {
+    position: relative;
+    top: 120px;
+}
+
+.para {
+    font-size: 18px;
+    width: 90%;
+}
+.side {
+    width: 500px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .first-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    }
+
+    .first-nav>div>a {
+        font-size: 12px;
+    }
+
+    .col-10 {
+        left: 10px;
+    }
+
+    .logo {
+        width: 200px;
+        position: relative;
+        right: 60px;
+    }
+
+    .ham {
+        position: relative;
+        left: 50px;
+    }
+
+    .side {
+        width: 220px;
+        padding-top: 10px;
+    }
+
+    .eng {
+        font-size: 14px !important;
+        display: block;
+        width: 80px;
+        height: 30px;
+        padding: 4px 19px !important;
+        /* flex-basis: 80px !important; */
+        /* border: 1px solid black; */
+        border: 1px solid rgb(217, 217, 217);
+    }
+
+    .pos {
+        position: relative;
+        right: 40px;
+    }
+
+    .section-1 {
+        top: 20px;
+    }
+
+    .section-1>h1 {
+        font-size: 30px;
+    }
+
+    .section-1>h3 {
+        font-size: 18px;
+    }
+
+    .section-1>p {
+        font-size: 12px;
+    }
+
+    .section-1>button>a {
+        font-size: 12px;
+    }
+    
+
+}
