@@ -92,7 +92,66 @@ figcaption {
 a.btn {
     background-color: #8DC63F;
 }
+#foot-section{
+    background-color: hsl(0, 0%, 26%);
+    /* background-image: url("images/foot-bg.png") !important; */
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: .1; */
+    /* background-blend-mode: darken; */
+    /* filter: brightness(30%); */
 
+}
+
+.logo-img {
+    width: 300px;
+}
+
+.social>div>a>img {
+    border-radius: 5px;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+#what {
+    border-radius: 5px;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #008000;
+}
+
+#whatsapp {
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.list>li {
+    line-height: 40px;
+    /* font-family: monospace; */
+}
+
+span.address {
+    font-size: 13px;
+}
+
+.row>div {
+    /* border:1px solid black */
+}
+
+.about {
+    width: 200px;
+}
+
+.contact {
+    width: 320px;
+}
+
+.acca {
+    width: 200px;
+}
+
+ 
 
 @media only screen and (max-width: 600px) {
     .first-nav {
@@ -197,5 +256,63 @@ a.btn {
         width: 100%;
     }
 
+    .logo-img {
+        width: 450px;
+        display: block;
+    }
+
+    .footer-content {
+        width: 450px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .row-foot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social {
+        width: 190px;
+        margin: 30px auto 0 auto !important;
+        padding: 0 !important;
+        /* border: 1px solid black; */
+    }
+
+    .about {
+        padding: 0;
+        width: 170px;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .list {
+        padding: 0;
+    }
+
+    .list>h4,
+    .list>li {
+        margin-left: 0px !important;
+        padding: 0 !important;
+
+    }
+
+    .list>li {
+        font-size: 14px;
+    }
+
+    .explore {
+        text-align: center;
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .contact {
+        text-align: center;
+        padding: 0 !important;
+        margin: 0 auto 10px auto;
+        /* border: 1px solid black; */
+        /* line-height: 1em !important; */
+    }
 
 }
