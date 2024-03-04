@@ -56,6 +56,42 @@
 .side {
     width: 500px;
 }
+.service-2>div {
+    width: 22rem;
+}
+
+.cards {
+    transition: transform 0.2s;
+    height: 150px;
+    width: 170px;
+    background-color: #F3FCE2;
+}
+.cards:hover {
+    transform: scale(1.1);
+}
+.card {
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.04);
+}
+.card-img-top {
+    filter: brightness(40%);
+}
+.card-img-top:hover {
+    filter: brightness(70%);
+}
+figure {
+    font-weight: 600;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+a.btn {
+    background-color: #8DC63F;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -126,5 +162,40 @@
         font-size: 12px;
     }
     
+    .service {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .service-2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .service-2>div {
+        width: 100%;
+    }
+    .service {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .service-2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .service-2>div {
+        width: 100%;
+    }
+
 
 }
