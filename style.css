@@ -25,25 +25,31 @@
     background-color: #0D6DB7;
     transition: transform 0.2s;
 }
+
 .sponsor {
     background-color: #8DC63F;
     transition: transform 0.2s;
 }
+
 .donate:hover {
     transform: scale(1.1);
 }
+
 .sponsor:hover {
     transform: scale(1.1);
 }
+
 .first-section {
     background-image: url("images/caruosal.png");
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 10px;
 }
+
 .navbar {
     border-bottom: 2px solid #E7E7E7;
 }
+
 .section-1 {
     position: relative;
     top: 120px;
@@ -53,9 +59,11 @@
     font-size: 18px;
     width: 90%;
 }
+
 .side {
     width: 500px;
 }
+
 .service-2>div {
     width: 22rem;
 }
@@ -66,21 +74,27 @@
     width: 170px;
     background-color: #F3FCE2;
 }
+
 .cards:hover {
     transform: scale(1.1);
 }
+
 .card {
     transition: transform 0.2s;
 }
+
 .card:hover {
     transform: scale(1.04);
 }
+
 .card-img-top {
     filter: brightness(40%);
 }
+
 .card-img-top:hover {
     filter: brightness(70%);
 }
+
 figure {
     font-weight: 600;
 }
@@ -92,7 +106,8 @@ figcaption {
 a.btn {
     background-color: #8DC63F;
 }
-#foot-section{
+
+#foot-section {
     background-color: hsl(0, 0%, 26%);
     /* background-image: url("images/foot-bg.png") !important; */
     background-position: 50% 0;
@@ -151,7 +166,7 @@ span.address {
     width: 200px;
 }
 
- 
+
 
 @media only screen and (max-width: 600px) {
     .first-nav {
@@ -220,7 +235,7 @@ span.address {
     .section-1>button>a {
         font-size: 12px;
     }
-    
+
     .service {
         flex-direction: column;
         gap: 30px;
@@ -238,6 +253,7 @@ span.address {
     .service-2>div {
         width: 100%;
     }
+
     .service {
         flex-direction: column;
         gap: 30px;
